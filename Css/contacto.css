@@ -1,0 +1,217 @@
+@import url(animated.css);
+
+/*----------------------- ESTILOS GENERALES ------------------------------*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/*-------------------------------------------------------------------*/
+
+body {
+  background-color: rgb(28, 16, 56);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding: 30px;
+  flex-wrap: wrap;
+  z-index: -1;
+}
+
+/*--------------------------- Header ----------------------*/
+
+header div {
+  padding: 30px;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+header div img {
+  width: 100%;
+}
+
+.header_logo {
+  display: flex;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  align-items: stretch;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.left {
+  width: 380px;
+  height: auto;
+  float: left;
+}
+.center {
+  width: 1024px;
+  height: auto;
+  float: center;
+}
+.right {
+  width: 320px;
+  height: auto;
+  float: right;
+}
+
+/*------------------------------ Menu ------------------------------*/
+
+
+.menu-nav {
+  align-items:space-around;
+  padding: 30px; 
+}
+
+.menu-nav ul {
+  list-style: none;
+  text-decoration: none;
+  gap: 20px;
+}
+
+.menu-nav ul li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: space-around;
+}
+
+.menu-nav li {
+  font-size: 25px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+}
+
+li a:hover {
+  background-color: rgb(241, 104, 180);
+  border-radius: 45px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 30px;
+  overflow: hidden;
+  background-color: rgba(7, 240, 170, 0.5);
+}
+
+li {
+  float: left;
+  list-style: none;
+}
+
+li a {
+  color: rgb(1, 6, 75);
+  text-align: center;
+  padding: 24px 26px;
+  text-decoration: none;
+}
+
+/*-------------------------------------------------------------*/
+
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: rgb(60, 255, 0);
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/*------------------------------ Video ------------------------------*/
+.video {
+  display: flex;
+  align-content: column;
+  align-items: center;
+  justify-content: row;
+  flex-direction: row;
+  width: 100%;
+}
+/*---------------------------------------------------------------------*/
+
+/*------------------------------ Section ------------------------------*/
+
+section {
+  border: 3px solid rgba(126, 46, 255, 0.5);
+  border-style: double;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bolder;
+  line-height: 1.5;
+}
+
+h2 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 30px;
+  color: rgba(13, 248, 177);
+}
+
+h3 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bolder;
+  font-size: 30px;
+  padding-bottom: 1rem;
+  color: rgb(241, 242, 243);
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: cornflowerblue;
+  font-size: 20px;
+  padding: 15px 15px 15px 15px;
+}
+
+.card-body {
+  line-height: 1.5;
+}
+
+/*------------------------------ Footer ------------------------------*/
+
+footer {
+  border: 1px solid rgb(119, 75, 238, 0.5);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 20px;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+footer div nav ul {
+  list-style: none;
+}
+
+footer div nav ul li {
+  padding: 10px;
+  margin: 5px;
+  background-color: rgb(241, 78, 241, 0.8);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,52 @@
+
+.main{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    background-color: rgba(255, 255, 255, 0.548);
+    border-radius: 80%;
+    box-shadow: -24vw -44vh 1px 1px rgba(255, 255, 255, 0.671),
+                38vw -4vh 0px 0px rgba(255, 255, 255, 0.671),
+                -20vw -48vh 1px 1px rgba(255, 255, 255, 0.671),
+                -39vw 38vh 1px 1px rgba(255, 255, 255, 0.671),
+                -42vw -11vh 0px 1px rgba(255, 255, 255, 0.671),
+                12vw 15vh 1px 1px rgba(255, 255, 255, 0.671),
+                42vw 6vh 1px 2px rgba(255, 255, 255, 0.671),
+                -8vw 9vh 0px 2px rgba(255, 255, 255, 0.671),
+                34vw -38vh 1px 0px rgba(255, 255, 255, 0.671),
+                -17vw 45vh 1px 1px rgba(255, 255, 255, 0.671),
+                -42vw 1vh 1px 0px rgba(255, 255, 255, 0.671), 
+                50vw -14vh 0px 0px rgba(255, 255, 255, 0.671),
+                -40vw -18vh 1px 2px rgba(255, 255, 255, 0.671),
+                -29vw 58vh 1px 1px rgba(255, 255, 255, 0.671),
+                -82vw -19vh 0px 1px rgba(255, 255, 255, 0.671),
+                82vw 55vh 1px 1px rgba(255, 255, 255, 0.671),
+                32vw 6vh 0px 2px rgba(255, 255, 255, 0.671),
+                -6vw 8vh 0px 2px rgba(255, 255, 255, 0.671),
+                44vw -58vh 1px 0px rgba(255, 255, 255, 0.671),
+                -77vw 95vh 1px 1px rgba(255, 255, 255, 0.671),
+                72vw -16vh 0px 2px rgba(255, 255, 255, 0.671),
+                2vw -6vh 0px 2px rgba(255, 255, 255, 0.671),
+                42vw -8vh 0px 2px rgba(255, 255, 255, 0.671),
+                4vw -98vh 1px 0px rgba(255, 255, 255, 0.671),
+                -7vw 95vh 1px 1px rgba(255, 255, 255, 0.671),
+                -12vw 11vh 1px 0px rgba(255, 255, 255, 0.671), 
+                90vw -4vh 0px 0px rgba(255, 255, 255, 0.671),
+                -100vw -8vh 1px 2px rgba(255, 255, 255, 0.671),
+                -69vw 8vh 1px 1px rgba(255, 255, 255, 0.671),
+                -88vw -95vh 0px 1px rgba(255, 255, 255, 0.671),
+                -72vw 70vh 1px 0px rgba(255, 255, 255, 0.548);
+    animation: zoom 8s alternate infinite;
+  }
+
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
+  }
+
