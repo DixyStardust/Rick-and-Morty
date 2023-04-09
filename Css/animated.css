@@ -1,4 +1,3 @@
-
 .main{
     position: fixed;
     top: 50%;
@@ -38,7 +37,7 @@
                 -69vw 8vh 1px 1px rgba(255, 255, 255, 0.671),
                 -88vw -95vh 0px 1px rgba(255, 255, 255, 0.671),
                 -72vw 70vh 1px 0px rgba(255, 255, 255, 0.548);
-    animation: zoom 8s alternate infinite;
+    animation: zoom 6s alternate infinite;
   }
 
 @keyframes zoom {

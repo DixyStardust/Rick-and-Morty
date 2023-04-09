@@ -1,6 +1,7 @@
 @import url(animated.css);
 
-/*----------------------- ESTILOS GENERALES ------------------------------*/
+
+/*----------------------------------------------------------- ESTILOS GENERALES -----------------------------------------------------*/
 
 * {
   margin: 0px;
@@ -8,7 +9,7 @@
   box-sizing: border-box;
 }
 
-/*-------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------*/
 
 body {
   background-color: rgb(28, 16, 56);
@@ -16,17 +17,17 @@ body {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 30px;
   flex-wrap: wrap;
-  z-index: -1;
 }
 
-/*--------------------------- Header ----------------------*/
+/*------------------------------------------------------------------- Header -------------------------------------------------------*/
 
 header div {
   padding: 30px;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
   flex-wrap: wrap;
-  gap: 10px;
 }
 
 header div img {
@@ -35,69 +36,54 @@ header div img {
 
 .header_logo {
   display: flex;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  align-items: stretch;
-  justify-content: space-between;
-  flex-direction: row;
-  flex-wrap: wrap;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  align-items: center;
+  justify-content: center;
+  justify-items: space-between;
 }
 
 .left {
-  width: 380px;
+  width: 20%;
   height: auto;
   float: left;
 }
 .center {
-  width: 1024px;
+  width: 60%;
   height: auto;
   float: center;
 }
 .right {
-  width: 320px;
+  width: 20%;
   height: auto;
   float: right;
 }
 
-/*------------------------------ Menu ------------------------------*/
-
+/*---------------------------------------------------------------------- Menu --------------------------------------------------------*/
 
 .menu-nav {
-  align-items:space-around;
-  padding: 30px; 
+  align-items: space-around;
+  padding: 30px;
 }
 
 .menu-nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style: none;
   text-decoration: none;
   gap: 20px;
-}
-
-.menu-nav ul li {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: space-around;
+  padding: 30px;
+  overflow: hidden;
+  background-color: rgba(7, 240, 170, 0.7);
 }
 
 .menu-nav li {
   font-size: 25px;
-  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 30px;
-}
-
-li a:hover {
-  background-color: rgb(241, 104, 180);
-  border-radius: 45px;
-}
-
-ul {
-  list-style-type: none;
-  padding: 30px;
-  overflow: hidden;
-  background-color: rgba(7, 240, 170, 0.5);
 }
 
 li {
@@ -112,18 +98,52 @@ li a {
   text-decoration: none;
 }
 
-/*-------------------------------------------------------------*/
-
-
-h1 {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  color: rgb(60, 255, 0);
-  font-style: italic;
-  font-weight: bold;
-  text-align: center;
-  font-size: 35px;
-  padding-bottom: 2rem;
+li a:hover {
+  background-color: rgb(241, 104, 180, 0.8);
+  border-radius: 60px;
 }
+
+
+/*--------------------------------------------------------------------- Section ----------------------------------------------------------*/
+
+section {
+  padding:30px;
+  border: 3px solid rgba(126, 46, 255, 0.5);
+  border-style: double;
+  border-radius: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  font-family: "Times New Roman", Times, serif; 
+  line-height: 1.5;
+  font-weight: bolder;
+  text-align: center;
+}
+
+section article div p {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-between;
+}
+
+.yo {
+  width:60%;
+  height: auto;
+}
+
+
+/*------------------------------ Video ------------------------------*/
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+/*----------------------------------------------------------------------*/
 
 main {
   display: flex;
@@ -131,37 +151,19 @@ main {
   justify-content: center;
 }
 
-/*------------------------------ Video ------------------------------*/
-.video {
-  display: flex;
-  align-content: column;
-  align-items: center;
-  justify-content: row;
-  flex-direction: row;
-  width: 100%;
-}
-/*---------------------------------------------------------------------*/
-
-/*------------------------------ Section ------------------------------*/
-
-section {
-  border: 3px solid rgba(126, 46, 255, 0.5);
-  border-style: double;
-  border-radius: 1rem;
-  display: flex;
-  flex-direction: row;
-  padding: 2rem;
-  justify-content: space-around;
-  align-items: center;
-  align-content: center;
-  font-family: "Times New Roman", Times, serif;
-  font-weight: bolder;
-  line-height: 1.5;
+h1 {
+  font-family: 'Slackey', cursive;
+  text-shadow: 2px 5px 5px rgb(158, 30, 184);
+  font-size: 30px;
+  text-align: center;
+  color: rgb(22, 181, 187);
+  font-size: 35px;
+  padding: 45px;
 }
 
 h2 {
   text-align: center;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: 'Bungee Shade', cursive;
   font-weight: bolder;
   font-size: 30px;
   color: rgba(13, 248, 177);
@@ -177,26 +179,55 @@ h3 {
 }
 
 p {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gugi', cursive;
   text-align: center;
   color: cornflowerblue;
   font-size: 20px;
   padding: 15px 15px 15px 15px;
 }
 
-.card-body {
-  line-height: 1.5;
+
+/*------------------------------ Redes Sociales ------------------------------*/
+
+.redes {
+  padding: 30px;
+  background-color: rgba(34, 224, 196, 0.6);
+  border: 3px solid rgba(102, 46, 255, 0.8);
+  border-style: dotted;
+  justify-content: center;
+  align-items:space-around;  
 }
+
+.redes ul {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+} 
+
+.redes a {
+  color: rgb(1, 6, 75);
+  padding-top: 4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  border-radius: 5rem;
+}
+
+.redes a:hover {
+  background-color: rgba(104, 209, 241, 0.8);
+  border-radius: 2rem;
+}
+
 
 /*------------------------------ Footer ------------------------------*/
 
 footer {
-  border: 1px solid rgb(119, 75, 238, 0.5);
   padding: 20px;
+  border: 1px solid rgb(216, 13, 57);
   display: flex;
   align-items: center;
   justify-content: space-between;
-  font-family: "Courier New", Courier, monospace;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
   flex-wrap: wrap;
@@ -210,8 +241,25 @@ footer div nav ul li {
   padding: 10px;
   margin: 5px;
   background-color: rgb(241, 78, 241, 0.8);
-  display: flex;
   justify-content: space-around;
   align-items: center;
+  display: flex;
   flex-wrap: wrap;
 }
+
+.alien {
+  width:25%;
+  height:auto;
+}
+
+.argprg {
+   width:100%;
+  height:auto;
+}
+
+/*-----------------------------------------------------Medias Queries------------------------------------------------------------------*/
+
+
+
+
+
