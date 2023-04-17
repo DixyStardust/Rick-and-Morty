@@ -107,6 +107,7 @@ li a:hover {
 
 section {
   padding: 30px;
+  margin:10px;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -114,6 +115,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
+  font-weight: bold;
 }
 
 section div {
@@ -125,12 +127,13 @@ section div {
 }
 
 section article {
+  line-height: 1.5;
+  margin: 15px;
   border-radius: 90px;
-  border-style: dashed;
   border-color: blueviolet;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: rgba(179, 63, 224, 0.3);
-  padding: 30px;
+  padding: 20px;
   align-items: space-between;
 }
 
@@ -147,7 +150,6 @@ section article {
 
 .video {
   display:flex;
-  flex-direction:row;
   justify-content: center;
   align-items: center;
   justify-content: center;
@@ -158,18 +160,18 @@ section article {
 /*------------------------------ Sinopsis ------------------------------*/
 
 .sinopsis {
-  border: 3px solid rgb(42, 121, 211);
-  border-style: double;
   border-radius: 1rem;
   background: rgba(46, 171, 255, 0.5);
   border-radius: 20px;
-  margin: 30px 0 0 0;
+  margin: 15px;
   padding: 30px;
+  
 }
 
 .trama {
   font-size: 18px;
   font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
 }
 
 /*------------------------------ Frases - Tipografías ------------------------------*/
@@ -179,7 +181,8 @@ h1 {
   text-shadow: 0px 5px 5px rgb(125, 243, 79);
   text-align: center;
   font-size: 32px;
-  color: rgb(2, 4, 117);
+  color: rgb(27, 0, 126);
+  text-shadow: 1px 1px 2px rgb(240, 255, 34), 0px 5px 5px rgb(4, 190, 13), 0 0 0.2em rgb(72, 255, 16);
 }
 
 
@@ -191,28 +194,36 @@ h2 {
 
 h3 {
   font-family: 'Slackey', cursive;
-  text-shadow: 0px 5px 5px rgb(243, 79, 188);
   font-size: 30px;
-  color: rgb(17, 7, 112);
+  color: rgb(66, 0, 141);
   text-align: center;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0px 5px 5px rgb(192, 2, 106), 0 0 0.2em rgb(201, 64, 255);
 }
 
 h4 {
   text-align: space-between;
   font-size: 36px;
   font-family: fantasy;
-  padding: 30px;
+  padding:45px;
+  margin:30px;
+}
+
+h5 {
+  font-size: 36px;
+  font-family: 'Yeseva One', cursive;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 0, 255), 0 0 0.2em rgb(210, 113, 255);
 }
 
 /*------------------------------ Imagen ------------------------------*/
 
 .meeseeks {
-  padding-top: 30px;
+  padding-top: 40px;
 }
 
 /*------------------------------ Acerca de los creadores ------------------------------*/
 
 .autorDH {
+  margin:15px;
   padding:20px;
   width: 35%;
   height: auto;
@@ -220,6 +231,7 @@ h4 {
 
 .autorJR {
   padding:20px;
+  margin:15px;
   width: 35%;
   height: auto;
 }
@@ -236,53 +248,54 @@ h4 {
 /*------------------------------ Footer ------------------------------*/
 
 footer {
-  padding: 30px; 
-  border: 1px solid rgb(216, 13, 57);
+  padding: 20px; 
+  margin:15px;
+  border: 5px solid rgb(216, 13, 57);
+  border-style: dashed;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-align: center;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: center;
+  align-items: space-between;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
 }
 
 footer section img {
-  width:40%;
-  justify-content:center;
-  align-items: center;
+  width:45%;
+  float:center;
 }
 
 footer section div {
   list-style: none;
-  justify-content: space-between;
-  align-items: space-around;
+  justify-content: center;
+  align-items: center;
 }
 
 footer section p {
   text-align: center;
   align-content: center;
   font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 33px;
+  font-size: 35px;
   font-weight: bold;
+  color:rgb(0, 0, 0);
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 1em rgb(255, 0, 255), 0 0 0.2em rgb(255, 255, 255);
 }
 
-.foot2 li a {
+footer li a {
   text-align: center;
-  justify-content: center;
   font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 35px;
+  font-size: 30px;
   background-color: rgb(241, 104, 180, 0.6);
   border-radius: 45px;
 }
 
-.foot2 li a:hover {
-  background-color: rgba(104, 191, 241, 0.8);
+footer li a:hover {
+  background-color: rgba(154, 47, 255, 0.8);
   border-radius: 45px;
   -webkit-border-radius:50%;
-  box-shadow: 0px 0px 15px 15px #ec1ea7;
+  box-shadow: 1px 1px 15px 15px #ec1ea7;
 }
 
 
@@ -291,8 +304,8 @@ footer section p {
 @media(max-width:440px){
   
   body{
-    padding:15px;
-    margin:10px;
+    padding:5px;
+    margin:5px;
   }
 
   .left {
@@ -322,7 +335,7 @@ footer section p {
     display: flex;
     flex-wrap: wrap;
     list-style-type: none;
-    font-size: 18px;
+    font-size: 16px;
     padding:5px;
   }
 
@@ -334,9 +347,9 @@ footer section p {
   .sinopsis {
     background: rgba(46, 171, 255, 0.5);
     border-radius: 20px;
-    width: 80%;
-    padding: 40px;
-    margin:30px;
+    width: 90%;
+    padding: 10px;
+    margin:5px;
   }
 
   .trama {
@@ -360,15 +373,14 @@ footer section p {
 
   h4 {
     text-align: center;
-    font-size: 28px;
+    font-size: 26px;
     font-family: fantasy;
   }
 
   .autores {
     border-radius: 90px;
-    border-style: dashed;
     border-color: blueviolet;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bolder;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color:  rgba(179, 63, 224, 0.3);
@@ -380,30 +392,51 @@ footer section p {
   }
 
   footer {
-    border: 1px solid rgb(216, 13, 57);
+    border: 3px dashed rgb(182, 2, 71);
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
     font-weight: bold;
-    flex-wrap: wrap;  
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
   }
 
   .pie-pagina p {
     text-align: center;
-    justify-content: space-between;
-    font-size: 25px;
+    font-size: 20px;
   }
   
   .footLOGO {
     width: 100%;
   }
 
+  .pie-pagina div ul li {
+    padding: 5px;
+    margin:5px;
+    list-style: none;
+  }
+  
   .foot2 li a {
     font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 18px;
+    font-weight: bolder;
+    font-size: 25px;
     background-color: rgb(241, 104, 180, 0.6);
-    border-radius: 45px;
+    border-radius: 45px; 
+    text-align: center;
+    
   }
+
+
+  .foot2 li a:hover {
+    background-color: rgba(104, 191, 241, 0.8);
+    border-radius: 45px;
+    -webkit-border-radius:50%;
+    box-shadow: 0px 0px 15px 15px #ec1ea7;
+  }
+  
 }
+  
+  
+  
+  

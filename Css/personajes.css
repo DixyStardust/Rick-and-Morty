@@ -10,7 +10,7 @@
 /*-------------------------------------------------------------------*/
   
 body {
-  background: linear-gradient(rgb(17, 1, 48), rgb(82, 3, 146),#6966ff, rgb(1, 81, 230),#03dba5);
+  background: linear-gradient(rgb(11, 80, 170),#03f8bb, rgb(75, 230, 14), rgb(231, 255, 13),rgb(255, 153, 1));
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 30px;
@@ -70,7 +70,7 @@ header div img {
   flex-wrap: wrap;  
   padding: 30px;
   overflow: hidden;
-  background-color: rgba(7, 240, 170, 0.5);
+  background-color: rgba(26, 177, 164, 0.7);
 }
 
 .menu-nav li {
@@ -82,28 +82,28 @@ header div img {
 }
 
 li {
-  float: left;
+  float: center;
   list-style: none;
 }
 
 li a {
-  color: rgb(1, 6, 75);
+  color: rgb(0, 0, 0);
   text-align: center;
   padding: 24px 26px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: rgb(241, 104, 180, 0.8);
+  background-color: rgba(255, 153, 0, 0.8);
   border-radius: 45px;
 }
 
 /*-------------------------------------------------------------------*/
 
 .card-container {
-  background-color: violet;
+  background-color: rgba(0, 0, 0, 0.2);
   padding: 20px;
-  margin:10px;
+  margin:5px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -118,7 +118,7 @@ li a:hover {
   padding: 10px;
   margin: 5px;
   border-radius: 10px 5px;
-  background-color: rgba(255, 255, 255, 0.444);
+  background-color: rgba(255, 255, 255, 0.44);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -143,12 +143,11 @@ li a:hover {
   font-size: 20px;
   text-align: center;
   margin: 5px;
-  
 }
 
 .card:hover {
-  background-color: #0cd6d6ae;
-  box-shadow: 1px 0px 19px 1px rgba(255,255,255,0.75);
+  background-color: #15f1baae;
+  box-shadow: 1px 0px 19px 1px rgba(255, 255, 255, 0.575);
   -webkit-box-shadow: 1px 0px 19px 1px rgba(255,255,255,0.75);
   -moz-box-shadow: 1px 0px 19px 1px rgba(255,255,255,0.75);
 }
@@ -156,57 +155,233 @@ li a:hover {
 
 /* selector | propiedad | valor */
 
+h1 {
+  font-family: 'Slackey', cursive;
+  text-shadow: 1px 1px 2px rgb(13, 255, 13), 0px 5px 5px rgb(0, 255, 0), 0 0 0.2em rgb(238, 255, 0);
+  text-align: center;
+  font-size: 35px;
+  color:rgb(11, 31, 23);
+}
 
+h2 {
+  font-family:'Aclonica';
+  font-size: 20px;
+  text-align: center;
+  color:#001812;
+}
+
+h4 {
+  font-family: 'Concert One', cursive;
+  font-size: 35px;
+  text-align: center;
+  color:#010002;
+}
 
 
 /*------------------------------ Footer ------------------------------*/
 
 footer {
   padding: 30px; 
-  border: 1px solid rgb(216, 13, 57);
+  border: 4px double rgb(216, 13, 13);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
   text-align: center;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  line-height: 1.6;
 }
 
-footer section img {
-  width:30%;
+footer section div img {
   height: auto;
   justify-content:center;
   align-items: center;
 }
 
-footer section div {
-  list-style: none;
-  justify-content: space-between;
-  align-items: space-around;
+.alien {
+  width: 30%;
+  height: auto;
 }
 
-footer section p {
+.argprg {
+  width: 100%;
+  height: auto;
+}
+
+footer section ul li {
+  list-style: none;
+  justify-content: center;
   text-align: center;
   align-content: center;
-  font-family: 'Mouse Memoirs', sans-serif;
+}
+
+section li a {
+  padding: 15px;
+  margin: 5px;
+  justify-content: right;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bolder;
   font-size: 20px;
-  font-weight: bold;
-}
-
-.foot2 li a {
-  text-align: center;
-  justify-content: center;
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 15px;
-  background-color: rgb(241, 104, 180, 0.6);
+  background-color: rgba(255, 73, 67, 0.8);
   border-radius: 45px;
 }
 
-.foot2 li a:hover {
-  background-color: rgba(104, 191, 241, 0.8);
+section div li a:hover {
+  background-color: rgba(238, 105, 16, 0.8);
   border-radius: 45px;
-  -webkit-border-radius:50%;
-  -webkit-box-shadow: 0px 0px 15px 15px #ec1ea7;
+  -webkit-border-radius:80%;
+  box-shadow: 0px 0px 15px 15px #fbff00;
+}
+
+
+/*-----------------------------------------------------Medias Queries------------------------------------------------------------------*/
+
+
+@media(max-width:440px){
+  
+  body{
+    padding:10px;
+    margin:2px;
+  }
+
+  .left {
+    width: 18%;
+    height: auto;
+  }
+
+  .center {
+    width: 64%;
+    height: auto;
+  }
+
+  .right {
+    width: 18%;
+    height: auto;
+  }
+
+  .menu-nav li {
+    font-size: 16px;
+    padding:12px;
+  }
+
+  h1 {
+    padding:15px;
+    margin:15px;
+    font-size: 15px;
+    font-family: 'Slackey', cursive;
+    text-shadow: 0px 5px 5px rgb(239, 255, 8) ;
+    text-align: center;
+    color:rgb(44, 39, 39);
+  }
+
+  h2 {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  h4 {
+    padding: 5px;
+    margin:5px;
+    font-size: 25px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  .card-container {
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    margin:10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center; 
+    border-radius: 10px;
+    gap:20px;
+  }
+
+  .card {
+    height: 280px;
+    width: 160px;
+    border-radius: 10px 5px;
+    background-color: rgba(124, 121, 121, 0.44);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .card .character-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card .character-image {
+    width: 50%;
+    border-radius: 50%;
+  }
+
+  .card:hover {
+    background-color: #15f1baae;
+    box-shadow: 1px 0px 19px 1px rgba(255, 255, 255, 0.575);
+    -webkit-box-shadow: 1px 0px 19px 1px rgba(255,255,255,0.75);
+    -moz-box-shadow: 1px 0px 19px 1px rgba(255,255,255,0.75);
+  }
+
+  footer {
+    border: 4px double rgb(255, 10, 161);
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+
+  .alien {
+    width: 35%;
+    height: auto;
+  }
+    
+  .argprg {
+    padding: 5px;
+    margin:5px;
+    width: 80%;
+    height: auto;
+  }
+
+  footer section ul li {
+    padding: 5px;
+    margin:5px;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
+
+  section li a {
+    justify-content: right;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 15px;
+    background-color: rgba(255, 73, 67, 0.8);
+    border-radius: 45px;
+  }
+
+  section div li a:hover {
+    background-color: rgba(238, 105, 16, 0.8);
+    border-radius: 35px;
+    -webkit-border-radius:60%;
+    box-shadow: 0px 0px 15px 15px #fbff00;
+  }
+
 }

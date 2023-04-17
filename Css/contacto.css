@@ -75,7 +75,7 @@ header div img {
   gap: 20px;
   padding: 30px;
   overflow: hidden;
-  background-color: rgba(7, 240, 170, 0.7);
+  background-color: rgba(193, 7, 240, 0.5);
 }
 
 .menu-nav li {
@@ -92,14 +92,14 @@ li {
 }
 
 li a {
-  color: rgb(1, 6, 75);
+  color: rgb(40, 212, 255);
   text-align: center;
   padding: 24px 26px;
   text-decoration: none;
 }
 
 li a:hover {
-  background-color: rgb(241, 104, 180, 0.8);
+  background-color: rgba(3, 0, 163, 0.8);
   border-radius: 60px;
 }
 
@@ -108,8 +108,8 @@ li a:hover {
 
 section {
   padding:30px;
-  border: 3px solid rgba(126, 46, 255, 0.5);
-  border-style: double;
+  margin: 30px;
+  border: 6px dotted rgba(126, 46, 255, 0.5);
   border-radius: 1rem;
   display: flex;
   font-family: "Times New Roman", Times, serif; 
@@ -148,16 +148,18 @@ main {
 }
 
 h1 {
+  padding: 15px 15px 15px 15px;
   font-family: 'Slackey', cursive;
-  text-shadow: 2px 5px 5px rgb(158, 30, 184);
+  text-shadow: 1px 1px 2px rgb(0, 0, 0), 0px 5px 5px rgb(192, 2, 192), 0 0 0.2em rgb(201, 64, 255);
   font-size: 30px;
   text-align: center;
-  color: rgb(22, 181, 187);
+  color:rgb(5, 159, 197);
   font-size: 35px;
   padding: 45px;
 }
 
 h2 {
+  padding: 15px 15px 15px 15px;
   text-align: center;
   font-family: 'Bungee Shade', cursive;
   font-weight: bolder;
@@ -166,12 +168,20 @@ h2 {
 }
 
 h3 {
+  padding: 15px 15px 15px 15px;
   text-align: center;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bolder;
   font-size: 30px;
-  padding-bottom: 1rem;
-  color: rgb(241, 242, 243);
+  color: rgb(233, 123, 255);
+}
+
+h4 {
+  margin:5px;
+  text-align: center;
+  font-size: 25px;
+  padding: 15px 15px 15px 15px;
+  color:aliceblue;
 }
 
 p {
@@ -179,22 +189,23 @@ p {
   text-align: center;
   color: cornflowerblue;
   font-size: 25px;
-  padding: 15px 15px 15px 15px;
 }
 
 
 /*------------------------------ Redes Sociales ------------------------------*/
 
 .redes {
-  padding: 30px;
-  background-color: rgba(34, 224, 196, 0.6);
-  border: 3px solid rgba(102, 46, 255, 0.8);
+  padding: 40px;
+  background-color: rgba(12, 243, 208, 0.6);
+  border: 4px solid rgba(46, 206, 255, 0.8);
   border-style: dotted;
   justify-content: center;
   align-items:space-around;  
 }
 
 .redes ul {
+  padding: 10px;
+  margin:15px;
   display: flex;
   justify-content: center;
   gap: 80px;
@@ -205,6 +216,7 @@ p {
   padding-top: 4rem;
   padding-left: 3rem;
   padding-right: 3rem;
+  padding-bottom: 1rem;
   box-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
   border-radius: 5rem;
 }
@@ -220,7 +232,7 @@ p {
 footer {
   margin:30px;
   padding: 30px;
-  border: 1px solid rgb(216, 13, 57);
+  border: 6px dotted rgb(255, 10, 161);
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -228,23 +240,23 @@ footer {
   font-size: 20px;
   font-weight: bold;
   flex-wrap: wrap;
+  flex-direction: row;
 }
 
-footer div nav ul li {
+footer article div {
   list-style: none;
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
+  justify-content:space-between;
+  align-content: center;
+  text-align: center;
 }
 
 .alien {
-  width:25%;
+  width:18%;
   height:auto;
 }
 
 .argprg {
-  width:100%;
+  width:25%;
   height:auto;
 }
 
@@ -254,8 +266,8 @@ footer div nav ul li {
 @media(max-width:440px){
   
   body{
-    padding:20px;
-    margin:5px;
+    padding:5px;
+    margin:3px;
   }
 
   .left {
@@ -284,40 +296,41 @@ footer div nav ul li {
     text-align: center;
     font-size: 18px;
     color: rgb(22, 181, 187);
-    text-shadow: 2px 5px 5px rgb(158, 30, 184);
+    text-shadow: 1px 1px 2px rgb(0, 0, 0), 0px 5px 5px rgb(192, 2, 192), 0 0 0.2em rgb(201, 64, 255);
   }
 
   h2 {
-    font-size: 20px;
+    font-size: 25px;
   }
 
   p {
-    font-size: 15px;
-    padding: 15px 15px 15px 15px;
+    font-size: 12px;
+    padding: 1px;
+    margin: 1px;
   }
 
- article img {
-  width:200px;
+  article img {
+    width:270px;
  }
   
   .music > iframe{ 
-    width: 360px;
-    height: 215px;
+    width: 320px;
+    height: 205px;
   }
-
  
   h3 {
     font-weight: bolder;
-    font-size: 18px;
-    color: rgb(241, 242, 243);
- }
+    font-size: 25px;
+    color: rgb(233, 123, 255);
+  }
 
-
-  article {
-    width: 28%;
+  .yo-soy {
+    width: 40%;
   }
 
   .redes {
+    padding:15px;
+    margin:35px;
     background-color: rgba(34, 224, 196, 0.6);
     border: 3px solid rgba(102, 46, 255, 0.8);
     border-style: dotted;
@@ -329,7 +342,7 @@ footer div nav ul li {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 40px;
   } 
   
   .redes a {
@@ -342,35 +355,30 @@ footer div nav ul li {
     background-color: rgba(104, 209, 241, 0.8);
     border-radius: 2rem;
   }
-  }
-
 
   footer {
-    border: 1px solid rgb(216, 13, 57);
+    border: 3px dotted rgb(255, 10, 161);
     align-items: center;
-    justify-content: space-between;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 25px;
+    justify-content: center;
     font-weight: bold;
     flex-wrap: wrap;  
     text-align: center;
   }
 
-  .pie-pagina p {
-    text-align: center;
-    justify-content: space-between;
-    font-size: 25px;
+  footer article div p {
+    margin:2px;
+    padding:2px;
+    font-size: 15px;
   }
   
-  .footLOGO {
-    width: 100%;
+  .alien {
+    width:30%;
+    height:auto;
   }
-
-  .foot2 li a {
-    font-family: 'Mouse Memoirs', sans-serif;
-    font-size: 18px;
-    background-color: rgb(241, 104, 180, 0.6);
-    border-radius: 45px;
+  
+  .argprg {
+    width:65%;
+    height:auto;
   }
 }
 

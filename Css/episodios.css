@@ -1,212 +1,381 @@
-
 /*----------------------- ESTILOS GENERALES ------------------------------*/
 
 * {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-  
+
 /*-------------------------------------------------------------------*/
-  
+
 body {
-  
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-   "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding: 30px;
-  flex-wrap: wrap;
+background: linear-gradient(rgb(17, 1, 48), rgb(82, 3, 146),#6966ff, rgb(1, 81, 230),#03dba5);
+font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+ "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+padding: 30px;
+flex-wrap: wrap;
 }
 
 /*------------------------------------------------------------------- Header -------------------------------------------------------*/
 
 header div {
-  padding: 30px;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
-  flex-wrap: wrap;
+padding: 30px;
+padding-bottom: 1rem;
+padding-top: 1rem;
+flex-wrap: wrap;
 }
 
 header div img {
-  width: 100%;
+width: 100%;
 }
 
 .header_logo {
-  display: flex;
-  margin: 0 0 0 0;
-  padding: 0 0 0 0;
-  align-items: center;
-  justify-content: center;
+display: flex;
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+align-items: center;
+justify-content: center;
 }
 
 .left {
-  width: 18%;
-  height: auto;
-  float: left;
+width: 22%;
+height: auto;
+float: left;
 }
 .center {
-  width: 65%;
-  height: auto;
-  float: center;
+width: 60%;
+height: auto;
+float: center;
 }
 .right {
-  width: 15%;
-  height: auto;
-  float: right;
+width: 18%;
+height: auto;
+float: right;
 }
 
 /*---------------------------------------------------------------------- Menu --------------------------------------------------------*/
 
 .menu-nav {
-  align-items: space-around;
-  padding: 30px;
+align-items: space-around;
+padding: 30px;
 }
 
 .menu-nav ul {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-  text-decoration: none;
-  gap: 20px;
-  flex-wrap: wrap;  
-  padding: 30px;
-  overflow: hidden;
-  background-color: rgba(7, 240, 170, 0.5);
+display: flex;
+justify-content: center;
+list-style: none;
+text-decoration: none;
+gap: 20px;
+flex-wrap: wrap;  
+padding: 30px;
+overflow: hidden;
+background-color: rgba(7, 240, 170, 0.5);
 }
 
 .menu-nav li {
-  font-size: 25px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+font-size: 25px;
+font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+display: flex;
+flex-direction: column;
+align-items: center;
 }
 
 li {
-  float: left;
-  list-style: none;
+float: left;
+list-style: none;
 }
 
 li a {
-  color: rgb(1, 6, 75);
-  text-align: center;
-  padding: 24px 26px;
-  text-decoration: none;
+color: rgb(1, 6, 75);
+text-align: center;
+padding: 24px 26px;
+text-decoration: none;
 }
 
 li a:hover {
-  background-color: rgb(241, 104, 180, 0.8);
-  border-radius: 45px;
+background-color: rgb(241, 104, 180, 0.8);
+border-radius: 45px;
 }
 
 /*-------------------------------------------------------------------*/
 
 .card-container {
+background-color: rgba(252, 62, 252, 0.6);
+padding: 20px;
+margin:10px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center; 
+border-radius: 10px;
+gap:30px;
+}
+
+.card {
+height: 300px;
+width: 280px;
+padding: 10px;
+margin: 5px;
+border-radius: 10px 5px;
+background-color: rgba(70, 243, 255, 0.4);
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+.card .character-info {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+margin: 5px;
+padding: 10px;
+}
+
+.card .character-image {
+width: 160px;
+border-radius: 50%;
+}
+
+.character-info h3 {
+font-size: 20px;
+text-align: center;
+margin: 5px;
+
+}
+
+.card:hover {
+background-color: rgba(0, 47, 255, 0.4);
+box-shadow: 1px 0px 19px 1px rgba(255,255,255,0.75);
+-webkit-box-shadow: 1px 0px 19px 1px rgba(255,255,255,0.75);
+-moz-box-shadow: 1px 0px 19px 1px rgba(255,255,255,0.75);
+}
+
+
+/* selector | propiedad | valor */
+
+h1 {
+font-family: 'Slackey', cursive;
+text-align: center;
+font-size: 35px;
+color:rgb(60, 210, 255);
+text-shadow: 1px 1px 2px rgb(0, 0, 0), 0px 5px 5px rgb(192, 2, 192), 0 0 0.2em rgb(0, 0, 0);
+}
+
+h2 {
+font-family: 'Macondo', cursive;
+font-size: 25px;
+text-align: center;
+color:#20015a;
+}
+
+h4 {
+margin: 15px;
+font-family: 'Press Start 2P', cursive;
+font-size: 20px;
+text-align: center;
+color:#20015a;
+}
+
+
+/*------------------------------ Footer ------------------------------*/
+
+footer {
+padding: 30px; 
+border: 4px solid rgb(216, 13, 138);
+font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+font-weight: bold;
+text-align: center;
+justify-content: space-between;
+align-items: center;
+align-content: center;
+display: flex;
+flex-wrap: wrap;
+}
+
+.alien {
+  width: 25%;
+  height: auto;
+}
+
+.argprg {
+  width: 70%;
+  height: auto;
+}
+
+footer div a {
+list-style: none;
+font-weight: bold;
+margin: 2px;
+padding: 12px;
+font-weight: bolder;
+font-size: 20px;
+background-color: rgba(174, 0, 255, 0.4);
+border-radius: 45px;
+font-family:'Courier New', Courier, monospace;
+}
+
+footer li a:hover {
+background-color: rgba(13, 213, 240, 0.8);
+border-radius: 45px;
+-webkit-border-radius:80%;
+box-shadow: 0px 0px 15px 15px #ff1fff;
+}
+
+
+/*----------------------------------------------- Medias Queries --------------------------------------------*/
+
+
+
+@media(max-width:440px){
+  
+  body{
+    padding:10px;
+    margin:2px;
+  }
+
+  .left {
+    width: 18%;
+    height: auto;
+  }
+
+  .center {
+    width: 64%;
+    height: auto;
+  }
+
+  .right {
+    width: 18%;
+    height: auto;
+  }
+
+  .menu-nav li {
+    font-size: 16px;
+    padding:8px;
+  }
+
+  h1 {
+    padding:15px;
+    margin:15px;
+    font-size: 15px;
+    font-family: 'Slackey', cursive;
+    text-shadow: 0px 5px 5px rgb(192, 2, 192);
+    text-align: center;
+    color:rgb(60, 194, 235);
+  }
+
+  h2 {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    color:#20015a;
+  }
+
+  p {
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+   
+  h4 {
+    font-family: 'Press Start 2P', cursive;
+    padding: 5px;
+    margin:5px;
+    font-size: 13px;
+    text-align: center;
+    color:#20015a;
+  }
+
+ .card-container {
   background-color: violet;
-  padding: 20px;
+  padding: 15px;
   margin:10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   text-align: center; 
   border-radius: 10px;
-  gap:30px;
-}
+  gap:20px;
+  }
 
-.card {
-  height: 300px;
-  width: 280px;
-  padding: 10px;
-  margin: 5px;
-  border-radius: 10px 5px;
-  background-color: rgba(255, 255, 255, 0.444);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-}
+  .card {
+    height: 280px;
+    width: 160px;
+    border-radius: 10px 5px;
+    background-color: rgba(255, 255, 255, 0.444);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
 
-.card .character-info {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 5px;
-  padding: 10px;
-}
+  .card .character-info {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.card .character-image {
-  width: 160px;
-  border-radius: 50%;
-}
+  .card .character-image {
+    width: 50%;
+    border-radius: 50%;
+  }
 
-.character-info h3 {
-  font-size: 20px;
-  text-align: center;
-  margin: 5px;
-  
-}
+  .card:hover {
+    background-color: #15f1baae;
+    box-shadow: 1px 0px 19px 1px rgba(255, 255, 255, 0.575);
+    -webkit-box-shadow: 1px 0px 19px 1px rgba(255,255,255,0.75);
+    -moz-box-shadow: 1px 0px 19px 1px rgba(255,255,255,0.75);
+  }
 
-.card:hover {
-  background-color: #0cd6d6ae;
-  box-shadow: 1px 0px 19px 1px rgba(255,255,255,0.75);
-  -webkit-box-shadow: 1px 0px 19px 1px rgba(255,255,255,0.75);
-  -moz-box-shadow: 1px 0px 19px 1px rgba(255,255,255,0.75);
-}
+  footer {
+    border: 4px solid rgb(216, 13, 138);
+    align-items: center;
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
 
+  .alien {
+    width: 30%;
+    height: auto;
+  }
+    
+  .argprg {
+    padding: 5px;
+    margin:5px;
+    width: 70%;
+    height: auto;
+  }
 
-/* selector | propiedad | valor */
+  footer .pie-pagina ul li {
+    padding: 5px;
+    margin: 5px;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+  }
 
+  .pie-pagina li a {
+    justify-content: center;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 10px;
+    background-color: rgba(174, 0, 255, 0.4);
+    border-radius: 45px;
+  }
 
+  .pie-pagina li a:hover {
+   background-color: rgba(13, 213, 240, 0.8);
+   border-radius: 45px;
+   -webkit-border-radius:80%;
+   box-shadow: 0px 0px 15px 15px #ff1fff;
+  }
 
-
-/*------------------------------ Footer ------------------------------*/
-
-footer {
-  padding: 30px; 
-  border: 2px dashed rgb(50, 13, 216);
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  justify-content: space-between;
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-footer section img {
-  width:100%;
-  justify-content:center;
-  align-items: center;
-}
-
-footer section div {
-  list-style: none;
-  justify-content: space-between;
-  align-items: space-around;
-}
-
-footer section p {
-  text-align: center;
-  align-content: center;
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 33px;
-  font-weight: bold;
-}
-
-.foot2 li a {
-  text-align: center;
-  justify-content: center;
-  font-family: 'Mouse Memoirs', sans-serif;
-  font-size: 35px;
-  background-color: rgb(241, 104, 180, 0.6);
-  border-radius: 45px;
-}
-
-.foot2 li a:hover {
-  background-color: rgba(104, 191, 241, 0.8);
-  border-radius: 45px;
-  -webkit-border-radius:50%;
-  -webkit-box-shadow: 0px 0px 15px 15px #ec1ea7;
 }
