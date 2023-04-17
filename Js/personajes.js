@@ -23,3 +23,4 @@ fetch(URL_API)
         </div>
         `}
     })
+
