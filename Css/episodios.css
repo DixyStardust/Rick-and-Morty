@@ -192,6 +192,7 @@ align-items: center;
 align-content: center;
 display: flex;
 flex-wrap: wrap;
+gap:20px;
 }
 
 .alien {
@@ -204,11 +205,12 @@ flex-wrap: wrap;
   height: auto;
 }
 
-footer div a {
+footer div li a {
 list-style: none;
 font-weight: bold;
 margin: 2px;
 padding: 12px;
+
 font-weight: bolder;
 font-size: 20px;
 background-color: rgba(174, 0, 255, 0.4);

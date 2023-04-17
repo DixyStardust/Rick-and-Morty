@@ -139,6 +139,16 @@ article img {
   align-content: center;
 }
 
+.mp3 {
+  margin: 30px;
+  padding: 30px;
+  justify-items: center;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
 /*----------------------------------------------------------------------*/
 
 main {
@@ -316,6 +326,14 @@ footer article div {
   .music > iframe{ 
     width: 320px;
     height: 205px;
+  }
+
+  .musica {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding:1px;
+    margin:1px;
   }
  
   h3 {

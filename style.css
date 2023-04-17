@@ -166,7 +166,7 @@ article {
   border-radius: 20px;
   margin: 15px;
   padding: 30px;
-  
+  font-weight: bold;
 }
 
 .trama {
@@ -223,7 +223,7 @@ h5 {
   margin:20px;
 }
 
-.Portal {
+.Cena {
   width:80%;
   height:auto;
 }
@@ -260,6 +260,7 @@ h5 {
   margin:55px;
   gap:35px;
 }
+
 
 /*------------------------------ Footer ------------------------------*/
 
@@ -366,6 +367,7 @@ footer li a:hover {
     width: 90%;
     padding: 10px;
     margin:5px;
+    font-weight: bold;
   }
 
   .trama {
@@ -380,8 +382,14 @@ footer li a:hover {
  }
 
   .existence{
-    width: 60%;
+    width:60%;
   }
+
+  .Cena {
+    width:580px;
+    height:auto;
+  }
+  
 
   article {
     width: 28%;
