@@ -19,6 +19,7 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   padding: 5px;
+  margin:5px;
   flex-wrap: wrap;
   align-content: center;
 }
@@ -188,7 +189,7 @@ h1 {
 
 
 h2 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-size: 30px;
   color: rgb(8, 3, 51);
   padding:5px;
@@ -206,7 +207,7 @@ h3 {
 h4 {
   text-align: space-between;
   font-size: 36px;
-  font-family: fantasy;
+  font-family: 'Yeseva One', cursive;
   margin:10px;
 }
 
@@ -301,6 +302,8 @@ footer section p {
 }
 
 footer li a {
+  padding:15px;
+  margin:15px;
   text-align: center;
   font-family: 'Mouse Memoirs', sans-serif;
   font-size: 30px;
@@ -321,22 +324,22 @@ footer li a:hover {
 @media(max-width:440px){
   
   body{
-    padding:5px;
+    padding:18px;
     margin:5px;
   }
 
   .left {
-    width: 18%;
+    width: 17%;
     height: auto;
   }
 
   .center {
-    width: 64%;
+    width: 62%;
     height: auto;
   }
 
   .right {
-    width: 18%;
+    width: 17%;
     height: auto;
   }
 
@@ -349,11 +352,8 @@ footer li a:hover {
   }
 
   .menu-nav li {
-    display: flex;
-    flex-wrap: wrap;
-    list-style-type: none;
     font-size: 16px;
-    padding:5px;
+    padding:8px;
   }
 
   .video > iframe{ 
@@ -365,8 +365,8 @@ footer li a:hover {
     background: rgba(46, 171, 255, 0.5);
     border-radius: 20px;
     width: 90%;
-    padding: 10px;
-    margin:5px;
+    padding:10px;
+    margin:8px;
     font-weight: bold;
   }
 
@@ -377,7 +377,7 @@ footer li a:hover {
 
   h3 {
     font-weight: bolder;
-    font-size: 18px;
+    font-size: 15px;
     color: rgb(43, 0, 63);
  }
 
@@ -398,7 +398,6 @@ footer li a:hover {
   h4 {
     text-align: center;
     font-size: 26px;
-    font-family: fantasy;
   }
 
   .autores {
@@ -448,9 +447,7 @@ footer li a:hover {
     background-color: rgb(241, 104, 180, 0.6);
     border-radius: 45px; 
     text-align: center;
-    
   }
-
 
   .foot2 li a:hover {
     background-color: rgba(104, 191, 241, 0.8);
