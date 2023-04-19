@@ -10,10 +10,10 @@
 /*-------------------------------------------------------------------*/
   
 body {
-  background: linear-gradient(rgb(11, 80, 170),#03f8bb, rgb(75, 230, 14), rgb(231, 255, 13),rgb(255, 153, 1));
+  background: linear-gradient(rgb(0, 21, 48),rgb(2, 59, 182),rgb(107, 28, 233), rgb(130, 63, 185),rgb(233, 111, 217));
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding: 30px;
+  padding: 50px;
   flex-wrap: wrap;
 }
 
@@ -70,7 +70,7 @@ header div img {
   flex-wrap: wrap;  
   padding: 30px;
   overflow: hidden;
-  background-color: rgba(26, 177, 164, 0.7);
+  background-color: rgba(35, 240, 255, 0.5);
 }
 
 .menu-nav li {
@@ -94,7 +94,7 @@ li a {
 }
 
 li a:hover {
-  background-color: rgba(255, 153, 0, 0.8);
+  background-color: rgb(241, 104, 180, 0.8);
   border-radius: 45px;
 }
 
@@ -102,7 +102,7 @@ li a:hover {
 
 .card-container {
   background-color: rgba(0, 0, 0, 0.2);
-  padding: 20px;
+  padding: 40px 40px 40px 40px;
   margin:5px;
   display: flex;
   flex-wrap: wrap;
@@ -157,10 +157,10 @@ li a:hover {
 
 h1 {
   font-family: 'Slackey', cursive;
-  text-shadow: 2px 2px 3px rgb(255, 255, 255), 1px 5px 5px rgb(255, 230, 6) , 0px 0px 28px rgb(0, 255, 0);
+  text-shadow: 2px 2px 3px rgb(0, 0, 0), 1px 5px 5px rgb(255, 6, 255) , 0px 0px 28px rgb(0, 28, 155);
   text-align: center;
   font-size: 35px;
-  color:rgb(11, 31, 23);
+  color:rgb(18, 200, 224);
 }
 
 h2 {
@@ -182,7 +182,7 @@ h4 {
 
 footer {
   padding: 30px; 
-  border: 4px double rgb(216, 13, 13);
+  border: 4px solid rgb(216, 13, 138);
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
   text-align: center;
@@ -224,15 +224,16 @@ section li a {
   font-family:'Courier New', Courier, monospace;
   font-weight: bolder;
   font-size: 20px;
-  background-color: rgba(255, 73, 67, 0.8);
+  background-color: rgba(180, 67, 255, 0.8);
   border-radius: 45px;
 }
 
 section div li a:hover {
-  background-color: rgba(238, 105, 16, 0.8);
+  color:aliceblue;
+  background-color: rgba(238, 16, 83, 0.8);
   border-radius: 45px;
   -webkit-border-radius:80%;
-  box-shadow: 0px 0px 15px 15px #fbff00;
+  box-shadow: 0px 0px 15px 15px #0b95cc;
 }
 
 
@@ -242,7 +243,7 @@ section div li a:hover {
 @media(max-width:440px){
   
   body{
-    padding:10px;
+    padding:12px;
     margin:2px;
   }
 
@@ -263,7 +264,7 @@ section div li a:hover {
 
   .menu-nav li {
     font-size: 16px;
-    padding:8px;
+    padding:5px;
   }
 
   h1 {
@@ -271,9 +272,9 @@ section div li a:hover {
     margin:15px;
     font-size: 15px;
     font-family: 'Slackey', cursive;
-    text-shadow: 0px 5px 5px rgb(239, 255, 8) ;
+    text-shadow: 2px 2px 3px rgb(0, 0, 0), 1px 5px 5px rgb(255, 6, 255) , 0px 0px 28px rgb(0, 28, 155);
     text-align: center;
-    color:rgb(44, 39, 39);
+    color:rgb(18, 200, 224);
   }
 
   h2 {
@@ -337,7 +338,7 @@ section div li a:hover {
   }
 
   footer {
-    border: 4px double rgb(255, 10, 161);
+    border: 4px solid rgb(216, 13, 138);
     align-items: center;
     font-weight: bold;
     text-align: center;
@@ -373,15 +374,16 @@ section div li a:hover {
     font-family:'Courier New', Courier, monospace;
     font-weight: bolder;
     font-size: 15px;
-    background-color: rgba(255, 73, 67, 0.8);
+    background-color: rgba(180, 67, 255, 0.8);
     border-radius: 45px;
   }
 
   section div li a:hover {
-    background-color: rgba(238, 105, 16, 0.8);
-    border-radius: 35px;
-    -webkit-border-radius:60%;
-    box-shadow: 0px 0px 15px 15px #fbff00;
+    color:aliceblue;
+    background-color: rgba(238, 16, 83, 0.8);
+    border-radius: 45px;
+    -webkit-border-radius:80%;
+    box-shadow: 0px 0px 15px 15px #0b95cc;
   }
 
 }
