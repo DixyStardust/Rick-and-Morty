@@ -298,7 +298,7 @@ footer article div {
 @media(max-width:440px){
   
   body{
-    padding:18px;
+    padding:10px;
     margin:5px;
   }
 
@@ -349,8 +349,9 @@ footer article div {
   }
 
   .music > iframe{ 
-    width: 320px;
+    width: 300px;
     height: 205px;
+    float:center;
   }
 
   section .musica {
