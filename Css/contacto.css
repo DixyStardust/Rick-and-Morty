@@ -15,15 +15,16 @@ body {
   background-color: rgb(28, 16, 56);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  padding: 30px;
+  padding: 20px;
+  margin:15px;
   flex-wrap: wrap;
 }
 
 /*------------------------------------------------------------------- Header -------------------------------------------------------*/
 
 header div {
-  padding: 30px;
-  padding-bottom: 30px;
+  padding: 80px;
+  padding-bottom: 50px;
   padding-top: 30px;
   padding-left: 30px;
   padding-right: 30px;
@@ -108,7 +109,7 @@ li a:hover {
 /*--------------------------------------------------------------------- Section ----------------------------------------------------------*/
 
 section {
-  padding:53px;
+  padding:40px;
   margin: 15px;
   border: 6px dotted rgba(126, 46, 255, 0.5);
   border-radius: 1rem;
@@ -118,21 +119,33 @@ section {
   font-weight: bolder;
   text-align: center; 
   justify-content: center;
+  gap:40px;
 }
 
 section article div p {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: row;
   justify-content: center;
   align-items:space-around;  
   margin: 15px;
   padding:15px;
 }
 
+.existencia {
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(204, 0, 255), 0 0 0.2em rgb(0, 0, 0);
+  color: rgb(34, 148, 255);
+  }
+
 article img {
   width:45%;
   height: auto;
 }
+
+.meseks {
+  width: 140px;  
+}
+
 
 /*------------------------------ Video ------------------------------*/
 
@@ -143,7 +156,7 @@ article img {
 
 audio::-webkit-media-controls-play,
      audio::-webkit-media-controls-panel {
-     background-color: rgb(225, 15, 253, 0.8);
+     background-color: rgba(252, 33, 241, 0.8);
      color: #000;
 }
 
@@ -160,8 +173,6 @@ audio::-webkit-media-controls-play,
 /*----------------------------------------------------------------------*/
 
 main {
-  display: flex;
-  flex-direction: column;
   justify-content: center;
 }
 
@@ -222,11 +233,13 @@ p {
   align-items:space-around;  
 }
 
-.redes ul {
+.redes div ul {
   padding: 10px;
-  margin:15px;
+  margin:25px;
   display: flex;
-  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
   gap: 80px;
 } 
 
@@ -336,7 +349,7 @@ footer article div {
   }
 
   .music > iframe{ 
-    width: 320px;
+    width: 280px;
     height: 205px;
   }
 
@@ -362,8 +375,8 @@ footer article div {
  }
 
   section {
-    padding:25px;
-    margin: 15px;
+    padding: 40px;
+    margin:15px;
     border: 6px dotted rgba(126, 46, 255, 0.5);
     border-radius: 1rem;
     display: flex;
@@ -383,8 +396,6 @@ footer article div {
   
   
   .redes {
-    padding:20px;
-    margin:40px;
     background-color: rgba(34, 224, 196, 0.6);
     border: 3px solid rgba(102, 46, 255, 0.8);
     border-style: dotted;
