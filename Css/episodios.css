@@ -19,9 +19,8 @@ flex-wrap: wrap;
 /*------------------------------------------------------------------- Header -------------------------------------------------------*/
 
 header div {
-padding: 30px;
-padding-bottom: 1rem;
-padding-top: 1rem;
+padding: 10px;
+margin:3px;
 flex-wrap: wrap;
 }
 
@@ -31,8 +30,6 @@ width: 100%;
 
 .header_logo {
 display: flex;
-margin: 0 0 0 0;
-padding: 0 0 0 0;
 align-items: center;
 justify-content: center;
 }
@@ -65,9 +62,10 @@ display: flex;
 justify-content: center;
 list-style: none;
 text-decoration: none;
-gap: 20px;
 flex-wrap: wrap;  
+gap: 80px;
 padding: 30px;
+margin:3px;
 overflow: hidden;
 background-color: rgba(225, 103, 255, 0.5);
 }
@@ -134,12 +132,11 @@ transition: .3s;
 }
 
 .card .character-info {
-width: 100%;
 display: flex;
 flex-direction: column;
 align-items: center;
-margin: 5px;
-padding: 10px;
+margin: 2px;
+padding: 5px;
 }
 
 .character-info h3 {
@@ -158,34 +155,36 @@ box-shadow: 5px 5px 30px 5px rgba(255, 255, 255, 0.75);
 }
 
 .card::before {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-  content: '';
-  background: #310446;
-  transition: transform .3s;
+position: absolute;
+top: 0;
+right: 0;
+bottom: 0;
+left: 0;
+z-index: -1;
+content: '';
+background: #310446;
+transition: transform .3s;
 }
 
 .card:hover {
-  color: #fff;
+color: #fff;
 }
 
 .card::before {
-  transform-origin: right top;
-  transform: scale(0, 1);
+transform-origin: right top;
+transform: scale(0, 1);
 }
 .card:hover::before {
-  transform-origin: left top;
-  transform: scale(1, 1);
+transform-origin: left top;
+transform: scale(1, 1);
 }
 
 
 /* selector | propiedad | valor */
 
 h1 {
+padding: 45px;
+margin:15px;
 font-family: 'Slackey', cursive;
 text-align: center;
 font-size: 35px;
@@ -248,7 +247,8 @@ color:#20015a;
 /*------------------------------ Footer ------------------------------*/
 
 footer {
-padding: 30px; 
+padding: 20px; 
+margin: 15px;
 border: 6px double rgb(0, 7, 112);
 font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 font-weight: bold;
@@ -271,12 +271,11 @@ gap:20px;
   height: auto;
 }
 
-footer div li a {
+footer li a {
 list-style: none;
 font-weight: bold;
 margin: 2px;
 padding: 12px;
-
 font-weight: bolder;
 font-size: 20px;
 background-color: rgba(174, 0, 255, 0.4);
@@ -304,12 +303,12 @@ box-shadow: 0px 0px 15px 15px #ff1fff;
   }
 
   .left {
-    width: 18%;
+    width: 20%;
     height: auto;
   }
 
   .center {
-    width: 64%;
+    width: 62%;
     height: auto;
   }
 
@@ -339,6 +338,7 @@ box-shadow: 0px 0px 15px 15px #ff1fff;
   .menu-nav li {
     font-size: 16px;
     padding:5px;
+    margin:5px;
   }
 
   h1 {

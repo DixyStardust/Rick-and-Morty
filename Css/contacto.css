@@ -72,8 +72,9 @@ header div img {
   justify-content: center;
   list-style: none;
   text-decoration: none;
-  gap: 20px;
+  gap: 80px;
   padding: 30px;
+  margin:3px;
   overflow: hidden;
   background-color: rgba(193, 7, 240, 0.5);
 }
@@ -284,8 +285,8 @@ footer article div {
 @media(max-width:440px){
   
   body{
-    padding:5px;
-    margin:3px;
+    padding:18px;
+    margin:5px;
   }
 
   .left {
@@ -294,7 +295,7 @@ footer article div {
   }
 
   .center {
-    width: 64%;
+    width: 63%;
     height: auto;
   }
 
@@ -305,14 +306,15 @@ footer article div {
 
   .menu-nav li {
     font-size: 18px;
-    padding:5px;
+    padding: 5px;
+    margin: 5px;
   }
 
   h1 {
     font-style: italic;
     font-weight: bold;
     text-align: center;
-    font-size: 18px;
+    font-size: 19px;
     color: rgb(22, 181, 187);
     text-shadow: 1px 1px 2px rgb(0, 0, 0), 0px 5px 5px rgb(192, 2, 192), 0 0 0.2em rgb(201, 64, 255);
   }
@@ -381,8 +383,8 @@ footer article div {
   
   
   .redes {
-    padding:15px;
-    margin:35px;
+    padding:20px;
+    margin:40px;
     background-color: rgba(34, 224, 196, 0.6);
     border: 3px solid rgba(102, 46, 255, 0.8);
     border-style: dotted;
@@ -418,8 +420,6 @@ footer article div {
   }
 
   footer article div p {
-    margin:2px;
-    padding:2px;
     font-size: 19px;
   }
   
