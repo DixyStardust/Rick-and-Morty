@@ -1,3 +1,5 @@
+// API
+
 const $container = document.getElementById("card-container")
 const $locations = document.getElementById("locations-container")
 

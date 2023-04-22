@@ -1,3 +1,5 @@
+// API
+
 const $container = document.getElementById("card-container")
 
 const URL_API = "https://rickandmortyapi.com/api/episode";
